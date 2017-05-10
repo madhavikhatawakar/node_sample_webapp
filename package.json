@@ -3,6 +3,9 @@
   "description": "hello jenkins test app",
   "version": "0.0.1",
   "private": true,
+    "script":{
+    "start": "npm install"
+    },
   "dependencies": {
     "express": "3.12.0"
   },
