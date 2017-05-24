@@ -7,10 +7,25 @@
     "start": "npm install"
     },
   "dependencies": {
-    "express": "3.12.0"
+    "express": "3.12.0",
+      "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-mocha": "^1.0.2",
+    "grunt-mocha-test": "^0.12.7",
+    "jshint": "^2.9.2",
+    "jshint-html-reporter": "^0.2.4",
+    "mocha": "^2.4.5",
+    "mocha-istanbul": "^0.2.0",
+    "morgan": "~1.5.1"
   },
   "devDependencies": {
     "mocha": "1.20.1",
-    "supertest": "0.13.0"
+    "supertest": "0.13.0",
+	"chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "istanbul": "^0.4.3",
+    "mongoose": "^4.1.3"
   }
 }
